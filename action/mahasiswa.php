@@ -112,7 +112,7 @@
 				 throw new MyDatabaseException( $Exception->getMessage( ) , (int)$Exception->getCode( ) );
 			}
 		}
-		function insertMahasiswa($Mahasiswa)){
+		function insertMahasiswa($Mahasiswa){
 			$koneksi = $this->koneksi;
 			$masuk = $koneksi->prepare('insert into mahasiswa value (:NIM, :namaMahasiswa, :idProdi, :idDosen)');
 			$masuk->bindParam(":NIM", $Mahasiswa->getNIM());
