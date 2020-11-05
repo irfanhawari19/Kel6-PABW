@@ -43,10 +43,6 @@
 								<input type="hidden" value="'.$mahasiswa->getNIM().'" name="id">
 								<button type="submit" class="btn btn-danger" name="hapus">
 									Delete
-								</button>
-							<a href="./mahasiswa_frs.php?NIM='.$mahasiswa->getNIM().'" class="btn btn-success">
-								FRS
-							</a>
 							</form>
 
 						</td> 
